@@ -5,30 +5,39 @@
     
     <body>
         
+        <script>
+            function start_btn_play() {
+                var start_btn = new Audio("./sounds/start_btn.mp3");
+                start_btn.play();
+            }
+        </script>
+
         <div id="container">
-            <button id="simple_button">Minion Time</button>
+            <a href="minioncock.html">
+                <button id="button" onclick="start_btn_play()">Minion Time</button>
+            </a>
         </div>
 
         <style>
-            button
+            #button
             {
-font-size: 40px;
-padding:10px;
-border-radius: 10px;
-margin:20px;
+                font-size: 40px;
+                padding:10px;
+                border-radius: 10px;
+                margin:20px;
             }
             #container
             {
                 width: 100%;
-  height: 900px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+                height: 900px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
 
 
             }
         </style>
 
-        
+    </body>
 
 </html>
