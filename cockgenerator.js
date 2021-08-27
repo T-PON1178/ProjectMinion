@@ -1,3 +1,8 @@
+
+object.onscroll = generate_cock()
+
+
+
 function generate_cock(cock_type) {
     var new_cock = document.createElement("IMG");
     new_cock.setAttribute("src", "./images/shlong.png") ;
